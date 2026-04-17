@@ -55,12 +55,6 @@ export function FeatureCard({
             alt={title}
             className="block h-auto w-full object-contain transition-transform duration-300 group-hover:scale-105"
           />
-          <div
-            className={`absolute -bottom-3 -right-3 flex h-16 w-16 items-center justify-center rounded-2xl ${t.iconBg} ${t.iconText} text-3xl shadow-md transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110`}
-            aria-hidden
-          >
-            {icon}
-          </div>
         </div>
       ) : (
         <div
