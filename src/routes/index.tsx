@@ -107,8 +107,8 @@ function Index() {
             Dona Coruja Digital
           </span>
           <h1 className="mb-6 text-[clamp(2rem,6vw,4rem)] font-extrabold leading-tight">
-            Desenvolva a escrita e o raciocínio do seu filho com o{" "}
-            <span className="text-gradient-primary">método lúdico</span>
+            Seu filho tem dificuldade para segurar o lápis ou aprender o alfabeto?{" "}
+            <span className="text-gradient-primary">Este kit resolve em 15 minutos por dia.</span>
           </h1>
           <p className="mx-auto mb-10 max-w-[700px] text-base text-muted-foreground sm:text-lg md:text-xl">
             O kit completo de atividades impressas para crianças de 4 a 7 anos. Economize tempo de
