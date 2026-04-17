@@ -51,7 +51,7 @@ const cards = [
     theme: "pink" as const,
   },
   {
-    icon: "🔢",
+    icon: "",
     image: cardMatematica,
     title: "Matemática Visual",
     description:
