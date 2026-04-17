@@ -149,6 +149,15 @@
   .shadow-glow-hover {
     box-shadow: var(--shadow-glow-hover);
   }
+  .bg-gradient-cta {
+    background: var(--gradient-cta);
+  }
+  .shadow-cta {
+    box-shadow: var(--shadow-cta);
+  }
+  .shadow-cta-hover {
+    box-shadow: var(--shadow-cta-hover);
+  }
   .shadow-price {
     box-shadow: var(--shadow-price);
   }
