@@ -31,28 +31,40 @@ export function ExitIntentModal() {
       setOpen(true);
     };
 
-    // Desktop: detect mouse leaving from the top
-    const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY <= 0) trigger();
+    // Desktop: mouse sai pelo topo da janela
+    const handleMouseOut = (e: MouseEvent) => {
+      // relatedTarget null = saiu da janela; clientY <= 0 = saiu pelo topo
+      if (!e.relatedTarget && e.clientY <= 0) trigger();
     };
 
-    // Mobile fallback: trigger after 25s of inactivity / scrolling up quickly
+    // Aba perdeu foco / usuário trocou de aba (forte sinal de saída)
+    const handleVisibility = () => {
+      if (document.visibilityState === "hidden") trigger();
+    };
+
+    // Mobile: scroll rápido pra cima perto do topo
     let lastY = window.scrollY;
+    let lastT = Date.now();
     const handleScroll = () => {
       const currentY = window.scrollY;
-      if (lastY - currentY > 80 && currentY < 200) {
-        trigger();
-      }
+      const now = Date.now();
+      const dy = lastY - currentY;
+      const dt = now - lastT;
+      if (dy > 60 && dt < 300 && currentY < 400) trigger();
       lastY = currentY;
+      lastT = now;
     };
 
-    const fallbackTimer = window.setTimeout(trigger, 45000);
+    // Fallback de tempo (caso nenhum gatilho dispare)
+    const fallbackTimer = window.setTimeout(trigger, 25000);
 
-    document.addEventListener("mouseleave", handleMouseLeave);
+    document.addEventListener("mouseout", handleMouseOut);
+    document.addEventListener("visibilitychange", handleVisibility);
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
-      document.removeEventListener("mouseleave", handleMouseLeave);
+      document.removeEventListener("mouseout", handleMouseOut);
+      document.removeEventListener("visibilitychange", handleVisibility);
       window.removeEventListener("scroll", handleScroll);
       window.clearTimeout(fallbackTimer);
     };
