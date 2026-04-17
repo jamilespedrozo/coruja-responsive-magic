@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Lock, Zap, Printer, GraduationCap } from "lucide-react";
 import kitMockup from "@/assets/kit-mockup.jpg";
+import cardGrafomotricidade from "@/assets/card-grafomotricidade.jpg";
 import { CtaButton } from "@/components/CtaButton";
 import { FeatureCard } from "@/components/FeatureCard";
 import { SimpleFeature } from "@/components/SimpleFeature";
@@ -37,6 +38,7 @@ const KIWIFY_LINK = "SEU_LINK_KIWIFY_AQUI";
 const cards = [
   {
     icon: "✏️",
+    image: cardGrafomotricidade,
     title: "Grafomotricidade",
     description:
       "Prepara a mão da criança para a escrita através de tracejados progressivos e extremamente divertidos.",
