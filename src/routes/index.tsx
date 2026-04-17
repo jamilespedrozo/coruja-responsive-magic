@@ -3,6 +3,7 @@ import { Lock, Zap, Printer, GraduationCap } from "lucide-react";
 import kitMockup from "@/assets/kit-mockup.jpg";
 import cardGrafomotricidade from "@/assets/card-grafomotricidade.jpg";
 import cardMatematica from "@/assets/card-matematica.jpg";
+import cardAlfabeto from "@/assets/card-alfabeto.jpg";
 import { CtaButton } from "@/components/CtaButton";
 import { FeatureCard } from "@/components/FeatureCard";
 import { SimpleFeature } from "@/components/SimpleFeature";
@@ -55,6 +56,7 @@ const cards = [
   },
   {
     icon: "🔤",
+    image: cardAlfabeto,
     title: "Alfabeto Tracejado",
     description:
       "Domínio completo das letras maiúsculas e minúsculas com associação fonética (A de Abelha).",
