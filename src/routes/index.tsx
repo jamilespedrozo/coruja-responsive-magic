@@ -73,6 +73,30 @@ const benefits = [
   "Garantia INCONDICIONAL de 7 dias",
 ];
 
+const testimonials = [
+  {
+    name: "Juliana Martins",
+    role: "Mãe da Helena, 5 anos",
+    initials: "JM",
+    bgColor: "linear-gradient(135deg, #7C3AED, #EC4899)",
+    text: "Minha filha estava com dificuldade pra segurar o lápis e em 2 semanas usando o caderno de grafomotricidade já vi uma evolução enorme. Vale cada centavo!",
+  },
+  {
+    name: "Patrícia Souza",
+    role: "Mãe do Davi, 4 anos",
+    initials: "PS",
+    bgColor: "linear-gradient(135deg, #EC4899, #F59E0B)",
+    text: "Comprei meio na desconfiança, mas chegou tudo certinho no e-mail na hora! Imprimi e o Davi não quer mais largar. Material lindo e bem feito.",
+  },
+  {
+    name: "Camila Ribeiro",
+    role: "Pedagoga e Mãe",
+    initials: "CR",
+    bgColor: "linear-gradient(135deg, #10B981, #7C3AED)",
+    text: "Como pedagoga eu aprovo demais! As atividades seguem a BNCC e são muito atrativas para as crianças. Indico para todas as mães da minha turma.",
+  },
+];
+
 function Index() {
   return (
     <main>
