@@ -38,6 +38,13 @@ export const Route = createRootRoute({
       { name: "author", content: "Dona Coruja Digital" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Dona Coruja Digital - Kit de Atividades Educativas" },
+      { name: "twitter:title", content: "Dona Coruja Digital - Kit de Atividades Educativas" },
+      { name: "description", content: "Digital Owl Design is a responsive web application that recreates a website with reusable components and a complete design system." },
+      { property: "og:description", content: "Digital Owl Design is a responsive web application that recreates a website with reusable components and a complete design system." },
+      { name: "twitter:description", content: "Digital Owl Design is a responsive web application that recreates a website with reusable components and a complete design system." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/93ddf688-f09c-41db-8be4-8555bb05acd8/id-preview-31497853--d3f1e955-afe8-4d32-931d-c5df097e151f.lovable.app-1776430442447.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/93ddf688-f09c-41db-8be4-8555bb05acd8/id-preview-31497853--d3f1e955-afe8-4d32-931d-c5df097e151f.lovable.app-1776430442447.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
