@@ -46,6 +46,7 @@ const cards = [
     description:
       "Prepara a mão da criança para a escrita através de tracejados progressivos e extremamente divertidos.",
     items: ["32 páginas de atividades", "Coordenação motora fina", "Personagens temáticos"],
+    theme: "pink" as const,
   },
   {
     icon: "🔢",
@@ -54,6 +55,7 @@ const cards = [
     description:
       "Introdução aos números e formas geométricas de maneira concreta e visual, eliminando a decoreba.",
     items: ["Números de 1 a 10", "Contagem e lógica", "Atividades de colorir"],
+    theme: "blue" as const,
   },
   {
     icon: "🔤",
@@ -62,6 +64,7 @@ const cards = [
     description:
       "Domínio completo das letras maiúsculas e minúsculas com associação fonética (A de Abelha).",
     items: ["A-Z completo", "Escrita guiada e livre", "Fixação de som & letra"],
+    theme: "green" as const,
   },
 ];
 
