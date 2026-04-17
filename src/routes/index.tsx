@@ -128,7 +128,10 @@ function Index() {
           <CtaButton href={KIWIFY_LINK} pulse>
             QUERO O KIT COMPLETO
           </CtaButton>
-          <span className="mt-4 flex items-center justify-center gap-2 text-sm font-medium text-muted-foreground">
+          <p className="mx-auto mt-5 max-w-[520px] text-sm font-medium text-foreground/75 sm:text-base">
+            Economize tempo de planejamento e garanta aprendizado divertido e eficiente.
+          </p>
+          <span className="mt-3 flex items-center justify-center gap-2 text-sm font-medium text-muted-foreground">
             <Lock className="h-4 w-4" /> Pagamento 100% seguro · Download imediato
           </span>
         </div>
