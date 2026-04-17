@@ -170,7 +170,7 @@ function Index() {
               <span className="mr-1 inline-block align-top text-2xl font-extrabold sm:mt-4 sm:text-3xl">
                 R$
               </span>
-              29,90
+              47,90
             </div>
 
             <div className="my-7 space-y-1 border-y border-border py-6 text-left">
