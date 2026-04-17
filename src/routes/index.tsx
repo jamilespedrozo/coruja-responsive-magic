@@ -74,7 +74,6 @@ const benefits = [
   "Caderno de Grafomotricidade",
   "Matemática Animada",
   "Alfabeto Tracejado A-Z",
-  "BÔNUS: Desenhos para colorir",
   "Garantia INCONDICIONAL de 7 dias",
 ];
 
