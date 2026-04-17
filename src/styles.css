@@ -46,6 +46,19 @@
   --secondary-foreground: oklch(1 0 0);
   --success: oklch(0.72 0.17 162);            /* #10B981 */
 
+  /* CTA - laranja vibrante para alto contraste */
+  --cta: oklch(0.72 0.2 50);                  /* laranja #F97316 */
+  --cta-foreground: oklch(1 0 0);
+  --cta-glow: oklch(0.78 0.18 70);            /* amarelo-laranja */
+
+  /* Cores temáticas por card */
+  --card-pink: oklch(0.95 0.04 1);
+  --card-pink-fg: oklch(0.55 0.22 1);
+  --card-blue: oklch(0.94 0.04 240);
+  --card-blue-fg: oklch(0.5 0.2 240);
+  --card-green: oklch(0.94 0.05 162);
+  --card-green-fg: oklch(0.45 0.15 162);
+
   /* Surfaces */
   --background: oklch(0.98 0.005 250);        /* #F8FAFC */
   --foreground: oklch(0.18 0.04 265);         /* #0F172A */
@@ -75,6 +88,9 @@
   --shadow-glow-hover: 0 15px 25px -5px oklch(0.55 0.25 295 / 0.5);
   --shadow-price: 0 25px 50px -12px oklch(0 0 0 / 0.15);
   --shadow-whatsapp: 0 10px 20px oklch(0.72 0.17 162 / 0.4);
+  --gradient-cta: linear-gradient(135deg, var(--cta) 0%, var(--cta-glow) 100%);
+  --shadow-cta: 0 10px 25px -5px oklch(0.72 0.2 50 / 0.5);
+  --shadow-cta-hover: 0 15px 30px -5px oklch(0.72 0.2 50 / 0.6);
 }
 
 .dark {
