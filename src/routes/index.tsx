@@ -9,6 +9,7 @@ import { FeatureCard } from "@/components/FeatureCard";
 import { SimpleFeature } from "@/components/SimpleFeature";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
+import { ExitIntentModal } from "@/components/ExitIntentModal";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -285,6 +286,7 @@ function Index() {
       </footer>
 
       <WhatsAppFloat />
+      <ExitIntentModal />
     </main>
   );
 }
