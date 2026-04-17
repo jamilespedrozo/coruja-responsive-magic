@@ -73,7 +73,7 @@ function Index() {
       <section className="bg-gradient-hero animate-fade-up px-4 pb-16 pt-16 text-center sm:pt-24 md:pb-20 md:pt-28">
         <div className="mx-auto w-[90%] max-w-[1200px]">
           <span className="mb-6 inline-block rounded-full bg-accent px-5 py-2 text-xs font-bold uppercase tracking-widest text-primary sm:text-sm">
-            Educação Infantil &amp; BNCC
+            Dona Coruja Digital
           </span>
           <h1 className="mb-6 text-[clamp(2rem,6vw,4rem)] font-extrabold leading-tight">
             Desenvolva a escrita e o raciocínio do seu filho com o{" "}
