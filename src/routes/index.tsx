@@ -160,7 +160,7 @@ function Index() {
         <div className="mx-auto w-[90%] max-w-[1200px]">
           <div className="relative mx-auto max-w-[500px] rounded-[30px] border-2 border-primary/20 bg-card p-8 text-center shadow-price sm:p-12">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-success px-5 py-1.5 text-xs font-bold uppercase tracking-widest text-white shadow-md">
-              Mais Vendido
+              Oferta Especial
             </div>
             <h3 className="mb-1 text-2xl font-extrabold sm:text-[28px]">
               Kit Educativo Completo
