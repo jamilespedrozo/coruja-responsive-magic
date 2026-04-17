@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Lock, Zap, Printer, GraduationCap } from "lucide-react";
 import kitMockup from "@/assets/kit-mockup.jpg";
 import cardGrafomotricidade from "@/assets/card-grafomotricidade.jpg";
+import cardMatematica from "@/assets/card-matematica.jpg";
 import { CtaButton } from "@/components/CtaButton";
 import { FeatureCard } from "@/components/FeatureCard";
 import { SimpleFeature } from "@/components/SimpleFeature";
@@ -46,6 +47,7 @@ const cards = [
   },
   {
     icon: "🔢",
+    image: cardMatematica,
     title: "Matemática Visual",
     description:
       "Introdução aos números e formas geométricas de maneira concreta e visual, eliminando a decoreba.",
