@@ -36,7 +36,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const KIWIFY_LINK = "SEU_LINK_KIWIFY_AQUI";
+const KIWIFY_LINK = "https://pay.kiwify.com.br/5gLslSX";
 
 const cards = [
   {
