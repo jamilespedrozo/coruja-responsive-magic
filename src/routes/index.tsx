@@ -7,6 +7,7 @@ import cardAlfabeto from "@/assets/card-alfabeto.jpg";
 import { CtaButton } from "@/components/CtaButton";
 import { FeatureCard } from "@/components/FeatureCard";
 import { SimpleFeature } from "@/components/SimpleFeature";
+import { TestimonialCard } from "@/components/TestimonialCard";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 export const Route = createFileRoute("/")({
