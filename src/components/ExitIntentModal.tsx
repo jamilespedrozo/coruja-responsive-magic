@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { X, Lock, Clock } from "lucide-react";
 import { CtaButton } from "@/components/CtaButton";
 
-const KIWIFY_LINK = "https://pay.kiwify.com.br/5gLslSX";
+const KIWIFY_LINK = "https://pay.kiwify.com.br/zLhoH79";
 const STORAGE_KEY = "exit-intent-shown";
 const COUNTDOWN_SECONDS = 10 * 60; // 10 minutes
 
