@@ -10,6 +10,7 @@ import { SimpleFeature } from "@/components/SimpleFeature";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import { ExitIntentModal } from "@/components/ExitIntentModal";
+import { LeadMagnet } from "@/components/LeadMagnet";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -203,6 +204,9 @@ function Index() {
           </div>
         </div>
       </section>
+
+      {/* LEAD MAGNET */}
+      <LeadMagnet />
 
       {/* PRICING */}
       <section className="bg-gradient-pricing px-4 py-20 md:py-28">
