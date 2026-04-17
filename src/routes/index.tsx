@@ -114,8 +114,7 @@ function Index() {
             <span className="text-gradient-primary">Este kit resolve em 15 minutos por dia.</span>
           </h1>
           <p className="mx-auto mb-10 max-w-[700px] text-base text-muted-foreground sm:text-lg md:text-xl">
-            O kit completo de atividades impressas para crianças de 4 a 7 anos. Economize tempo de
-            planejamento e garanta o aprendizado em casa de forma divertida e eficiente.
+            Kit completo para crianças de 4 a 7 anos – imprima em casa
           </p>
 
           <img
