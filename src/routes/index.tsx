@@ -7,6 +7,7 @@ import cardAlfabeto from "@/assets/card-alfabeto.jpg";
 import { CtaButton } from "@/components/CtaButton";
 import { FeatureCard } from "@/components/FeatureCard";
 import { SimpleFeature } from "@/components/SimpleFeature";
+import { TestimonialCard } from "@/components/TestimonialCard";
 import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 export const Route = createFileRoute("/")({
@@ -70,6 +71,30 @@ const benefits = [
   "Alfabeto Tracejado A-Z",
   "BÔNUS: Desenhos para colorir",
   "Garantia INCONDICIONAL de 7 dias",
+];
+
+const testimonials = [
+  {
+    name: "Juliana Martins",
+    role: "Mãe da Helena, 5 anos",
+    initials: "JM",
+    bgColor: "linear-gradient(135deg, #7C3AED, #EC4899)",
+    text: "Minha filha estava com dificuldade pra segurar o lápis e em 2 semanas usando o caderno de grafomotricidade já vi uma evolução enorme. Vale cada centavo!",
+  },
+  {
+    name: "Patrícia Souza",
+    role: "Mãe do Davi, 4 anos",
+    initials: "PS",
+    bgColor: "linear-gradient(135deg, #EC4899, #F59E0B)",
+    text: "Comprei meio na desconfiança, mas chegou tudo certinho no e-mail na hora! Imprimi e o Davi não quer mais largar. Material lindo e bem feito.",
+  },
+  {
+    name: "Camila Ribeiro",
+    role: "Pedagoga e Mãe",
+    initials: "CR",
+    bgColor: "linear-gradient(135deg, #10B981, #7C3AED)",
+    text: "Como pedagoga eu aprovo demais! As atividades seguem a BNCC e são muito atrativas para as crianças. Indico para todas as mães da minha turma.",
+  },
 ];
 
 function Index() {
@@ -151,6 +176,24 @@ function Index() {
               title="Validado por Profs"
               description="Material desenvolvido cuidadosamente por pedagogos, seguindo estritamente as diretrizes da BNCC."
             />
+          </div>
+        </div>
+      </section>
+
+      {/* DEPOIMENTOS */}
+      <section className="px-4 py-16 md:py-24">
+        <div className="mx-auto w-[90%] max-w-[1200px]">
+          <h2 className="relative mb-14 text-center text-[clamp(1.75rem,4vw,2.625rem)] font-extrabold">
+            Mães que já transformaram o aprendizado
+            <span
+              aria-hidden
+              className="mx-auto mt-4 block h-1 w-16 rounded-full bg-primary"
+            />
+          </h2>
+          <div className="grid gap-7 sm:grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
+            {testimonials.map((t) => (
+              <TestimonialCard key={t.name} {...t} />
+            ))}
           </div>
         </div>
       </section>
