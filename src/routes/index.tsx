@@ -180,6 +180,24 @@ function Index() {
         </div>
       </section>
 
+      {/* DEPOIMENTOS */}
+      <section className="px-4 py-16 md:py-24">
+        <div className="mx-auto w-[90%] max-w-[1200px]">
+          <h2 className="relative mb-14 text-center text-[clamp(1.75rem,4vw,2.625rem)] font-extrabold">
+            Mães que já transformaram o aprendizado
+            <span
+              aria-hidden
+              className="mx-auto mt-4 block h-1 w-16 rounded-full bg-primary"
+            />
+          </h2>
+          <div className="grid gap-7 sm:grid-cols-[repeat(auto-fit,minmax(280px,1fr))]">
+            {testimonials.map((t) => (
+              <TestimonialCard key={t.name} {...t} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* PRICING */}
       <section className="bg-gradient-pricing px-4 py-20 md:py-28">
         <div className="mx-auto w-[90%] max-w-[1200px]">
